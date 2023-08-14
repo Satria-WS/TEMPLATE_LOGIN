@@ -9,11 +9,11 @@ const Login_1 = () => {
           <h1>Login</h1>
           <div className="input-box">
             <input type="text" placeholder="Username" required />
-            <PersonIcon fontSize="small" />
+            <i><PersonIcon fontSize="small" /></i>
           </div>
           <div className="input-box">
             <input type="password" placeholder="Password" required />
-            <LockIcon fontSize="small"/>
+            <i><LockIcon fontSize="small"/></i>
           </div>
           <div className="remember-forgot">
             <label>
