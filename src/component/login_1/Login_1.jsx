@@ -1,3 +1,6 @@
+import PersonIcon from "@mui/icons-material/Person";
+import LockIcon from '@mui/icons-material/Lock';
+import "./style.css"
 const Login_1 = () => {
   return (
     <>
@@ -5,14 +8,16 @@ const Login_1 = () => {
         <form action="">
           <h1>Login</h1>
           <div className="input-box">
-            <input type="text" placeholder="Username" required></input>
+            <input type="text" placeholder="Username" required />
+            <PersonIcon fontSize="small" />
           </div>
           <div className="input-box">
-            <input type="password" placeholder="Password" required></input>
+            <input type="password" placeholder="Password" required />
+            <LockIcon fontSize="small"/>
           </div>
           <div className="remember-forgot">
             <label>
-              <input type="checkbox"></input>
+              <input type="checkbox"/>
               Remember me
             </label>
             <a href="#"> Forgot password</a>
@@ -22,7 +27,9 @@ const Login_1 = () => {
           </button>
           <div className="register-link">
             <p className="register-link">
-              <p>Don't have an account? <a href="#">Register</a></p>
+              <p>
+                Don't have an account? <a href="#">Register</a>
+              </p>
             </p>
           </div>
         </form>
